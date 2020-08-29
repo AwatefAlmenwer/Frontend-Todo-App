@@ -1,0 +1,171 @@
+@import url(//cdn.rawgit.com/rtaibah/dubai-font-cdn/master/dubai-font.css);
+* {
+  direction: rtl;
+}
+/* body {
+  font-family: "Dubai-Regular", sans-serif;
+} */
+/* @font-face {
+  font-family: "Dubai Regular";
+  font-style: normal;
+  font-weight: normal;
+  src: local("Dubai Regular"), url("Dubai-Regular.woff") format("woff");
+} */
+/* @font-face {
+  font-family: "Dubai-Regular", sans-serif;
+  src: url(font/Dubai-Regular.woff);
+  font-weight: normal;
+} */
+
+.side-nav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #273648;
+  overflow-x: hidden;
+  transition: 0.5s;
+  font-family: "Dubai-Medium", sans-serif;
+}
+.side-nav .logo {
+  height: 64px;
+  width: 83px;
+  padding-top: 15px;
+  padding-right: 15px;
+  padding-bottom: 20px;
+}
+.side-nav a {
+  padding: 8px 8px 8px 32px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #edf4fc;
+  display: block;
+  transition: 0.3s;
+}
+.side-nav a .closebtn {
+  color: #ffffff;
+  display: inline-block;
+  transition: 0.3s;
+}
+.side-nav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  margin-right: 135px;
+  margin-left: 50px;
+}
+.side-nav a img {
+  display: inline;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: #ffffff;
+}
+.side-nav a:hover {
+  background-color: #4a90e2;
+}
+
+/* .side-nav .user {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  padding-top: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+  color: #edf4fc;
+  display: inline-block;
+}
+.side-nav .user p {
+  display: inline-block;
+  padding: 5px;
+  margin: auto;
+  margin-top: 0;
+} */
+
+.side-nav .profile {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding: 15px 0;
+  /* white-space: nowrap;
+  transition: all 0.3s ease; */
+}
+
+.side-nav .profile .img {
+  padding: 0 18px;
+  width: 45px;
+}
+
+/* .side-nav .profile img {
+  width: 45px;
+} */
+
+.side-nav .profile span:first-child {
+  font-size: 14px;
+  color: #edf4fc;
+  margin-right: 25px;
+}
+.side-nav .profile span:last-child {
+  font-size: 11px;
+  margin-right: 25px;
+  color: #edf4fc;
+}
+
+#main {
+  transition: margin-left 0.5s;
+  padding: 16px;
+}
+.container {
+  margin-right: 200px;
+  width: 89%;
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.container .navbar {
+  height: 64px;
+}
+.container .navbar .navbar-left .form-group {
+  padding-left: 135px;
+  top: 10px;
+}
+.container .navbar .navbar-right .dropdown {
+  font-family: "Dubai-Regular", sans-serif;
+  margin-right: 1000px;
+  top: 10px;
+}
+.container h2 {
+  margin-top: 50px;
+  font-size: 20px;
+  color: #30394a;
+  font-family: "Dubai-Medium", sans-serif;
+}
+.container .row {
+  color: #fff;
+  padding-left: 10px;
+}
+.container .row .caption p {
+  padding: 15px;
+  font-size: 18px;
+  font-family: "Dubai-Regular", sans-serif;
+  color: #666666;
+}
+.container .row .caption p input {
+  padding-right: 10px;
+  border-radius: 20px;
+}
+/* @media screen and (max-height: 450px) {
+  .side-nav {
+    padding-top: 15px;
+  }
+  .side-nav a {
+    font-size: 18px;
+  }
+} */
